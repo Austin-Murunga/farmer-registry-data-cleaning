@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+output/work_sample.docx
+output/*.json

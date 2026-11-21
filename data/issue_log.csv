@@ -1,0 +1,13 @@
+Issue,Rows,Action
+Exact duplicate rows (double upload),18,Removed
+Inconsistent name formatting,52,Trimmed and title-cased
+County spelt differently,152,Mapped to 6 agreed names
+Phone in non-standard format,89,Converted to 07XXXXXXXX
+Date in mixed formats,58,Parsed to one format
+Impossible or out-of-range date,13,"Set blank, sent back to field team"
+Conflicting versions of a farmer,15,Kept latest update
+Same farmer registered twice,12,Merged to earliest ID
+Missing values (phone/county/gender/acres),90,Not guessed; reported and flagged
+Sales under a merged (duplicate) ID,39,Re-pointed to kept ID
+Sales with an unknown farmer ID,30,Flagged for Sales to correct
+Sale dated before registration,14,Flagged for review
